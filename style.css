@@ -73,31 +73,32 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  img {
-    height: 80px;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
 
-@media screen and (max-width: 420px) {
+  h1, h3{
+    font-size: 2em;
+  }
+  div{
+   font-size: 25px;
+  }
+
+  img {
+    height: 200px;
+  }
+
   hr {
     display: none;
   }
-}
 
-@media screen and (max-width: 420px) {
-  .row {
-    margin-top: 0px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  #why .row,
-  #lezioni .row {
+  #lezioni .row,
+  #why .row {
     background-color: #FFE4B5;
   }
-}
 
-@media screen and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -108,16 +109,15 @@ img {
     left: 50%;
     transform: translateX(-50%);
   }
-}
 
-@media screen and (max-width: 420px) {
   #steps {
     background-color: white;
   }
-}
-
-@media screen and (max-width: 420px) {
   #why .row img {
     padding: 10px;
+  }
+
+  .row {
+    margin-top: 0px;
   }
 }
