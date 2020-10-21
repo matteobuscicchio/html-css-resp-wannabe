@@ -73,15 +73,27 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  #why .row,
-  #lezioni .row {
-    background-color: #FFE4B5;
+  img {
+    height: 80px;
   }
 }
 
 @media screen and (max-width: 420px) {
   hr {
     display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .row {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #why .row,
+  #lezioni .row {
+    background-color: #FFE4B5;
   }
 }
 
@@ -105,9 +117,7 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    background-color: #FFE4B5;
+  #why .row img {
+    padding: 10px;
   }
 }
