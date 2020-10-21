@@ -71,3 +71,15 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 800px) {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
